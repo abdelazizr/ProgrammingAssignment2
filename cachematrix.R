@@ -3,6 +3,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+#get inverse of matrix
+#cache the result
+#if call will provide the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   my_inv <- NULL
@@ -19,7 +22,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## compute inverse of cached matrix
+# check to see if matrix is cached
+#if cached then will get it 
+# if not cached will then perform expensive computation
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
